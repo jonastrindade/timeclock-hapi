@@ -1,0 +1,7 @@
+=============================
+npm install:
+@hapi/hapi
+@hapi/joi
+@hapi/glue
+@hapi/inert
+=============================
