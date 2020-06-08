@@ -1,0 +1,20 @@
+<table>
+  <thead>
+  <tr>
+    <th>Funcionario</th>
+    <th>Horas</th>
+    <th></th>
+    <th></th>
+  </tr>  
+  </thead>
+  <tbody>
+  {{#each horas}}
+  <tr>
+    <td>{{ this.funcionario }}</td>
+    <td>{{ this.horas }}</td>
+    <td><button>Aprovar</button></td>
+    <td><button>Rejeitar</button></td>
+  </tr>
+  {{/each}}
+  </tbody>
+</table>

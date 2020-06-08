@@ -4,4 +4,8 @@ npm install:
 @hapi/joi
 @hapi/glue
 @hapi/inert
+@hapi/vision
+handlebars
+  templating
+bootstrap
 =============================
