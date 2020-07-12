@@ -8,4 +8,7 @@ npm install:
 handlebars
   templating
 bootstrap
+@hapi/basic
+@hapi/bell
+@hapi/cookie
 =============================

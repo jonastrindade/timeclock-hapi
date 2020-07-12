@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/jonastrindade/timeclock-hapi#readme",
   "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/bell": "^12.1.0",
+    "@hapi/cookie": "^11.0.1",
     "@hapi/glue": "^7.0.0",
     "@hapi/hapi": "^19.1.1",
     "@hapi/inert": "^6.0.1",
