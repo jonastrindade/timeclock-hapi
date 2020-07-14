@@ -11,4 +11,6 @@ bootstrap
 @hapi/basic
 @hapi/bell
 @hapi/cookie
+sequelize
+mysql2
 =============================

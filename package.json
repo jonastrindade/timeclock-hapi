@@ -27,6 +27,8 @@
     "@hapi/vision": "^6.0.0",
     "core-util-is": "^1.0.2",
     "express": "^4.17.1",
-    "handlebars": "^4.7.6"
+    "handlebars": "^4.7.6",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.3"
   }
 }
