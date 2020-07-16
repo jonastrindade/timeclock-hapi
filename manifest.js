@@ -23,6 +23,7 @@ module.exports = {
           path: __dirname,
           layout: true,
           layoutPath: 'templates/layouts',
+          helpersPath: 'templates/helpers',
           context: (request) => {
             return {
               credentials: request.auth.credentials
@@ -37,15 +38,9 @@ module.exports = {
         plugin: require('./home')
       },
       {
-        plugin: require('./gerente'),
+        plugin: require('./horarios'),
         routes: {
-          prefix: '/gerente'
-        }  
-      },
-      {
-        plugin: require('./funcionario'),
-        routes: {
-          prefix: '/funcionario'
+          prefix: '/horarios'
         }  
       }
     ]

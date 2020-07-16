@@ -5,7 +5,8 @@ npm install:
 @hapi/glue
 @hapi/inert
 @hapi/vision
-handlebars
+handlebars 4.5.3
+  npm install handlebars-4.5.3 --save
   templating
 bootstrap
 @hapi/basic
@@ -13,4 +14,5 @@ bootstrap
 @hapi/cookie
 sequelize
 mysql2
+mysql
 =============================

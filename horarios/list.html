@@ -1,0 +1,22 @@
+<h1>List</h1>
+<table class="table">
+  <thead>
+  <tr>
+    <th>Funcionario</th>
+    <th>Início</th>
+    <th>Fim</th>
+    <th>Horas</th>
+    <th></th>
+    <th></th>
+  </tr>  
+  </thead>
+  <tbody>
+  {{#each horas}}
+  <tr>
+    <td>{{ this.inseridoPor }}</td>
+    {{{ tempoTrabalhado this.fim this.inicio }}}
+    {{{ acoesGerenciamento this }}}
+  </tr>
+  {{/each}}
+  </tbody>
+</table>
